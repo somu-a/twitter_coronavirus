@@ -34,10 +34,13 @@ items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), rev
 top_ten = sorted(items[:10], key=lambda x: x[1])
 countries = []
 values = []
+print(top_ten)
 for country, value in top_ten:
     countries.append(country)
     values.append(value)
 
+print(countries)
+print(values)
 #print(top_ten)
 plt.bar(countries, values)
 
@@ -53,7 +56,7 @@ if args.input_path == "reduced.country":
 elif args.input_path == "reduced.lang":
     plt.xlabel("Languages")
     plt.ylabel("Number of Tweets")
-    plt.title("Top 10 Countries with Tweets including: " + str(args.key))
+    plt.title("Top 10 Languages with Tweets including: " + str(args.key))
     if args.key == '#coronavirus':
         plt.savefig('LanguageCoronavirus.png')
     elif args.key == '#코로나바이러스':
