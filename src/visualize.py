@@ -28,15 +28,17 @@ if args.percent:
 
 # plot the count values
 items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)
-#print(items)
+#for k,v in items:
+ #   print(k, ':',v)
 
-top_ten = items[1:11]
+top_ten = sorted(items[:10], key=lambda x: x[1])
 countries = []
 values = []
 for country, value in top_ten:
     countries.append(country)
     values.append(value)
 
+#print(top_ten)
 plt.bar(countries, values)
 
 if args.input_path == "reduced.country":
