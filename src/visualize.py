@@ -42,7 +42,15 @@ for country, value in top_ten:
 print(countries)
 print(values)
 #print(top_ten)
-plt.bar(countries, values)
+
+plt.bar([i for i in range(len(countries))],
+        values,
+        color = 'black',
+        width = 0.2
+        )
+plt.ylabel("tweet count")
+plt.xticks([i for i in range(len(countries))], countries)
+
 
 if args.input_path == "reduced.country":
     plt.xlabel("Countries")
