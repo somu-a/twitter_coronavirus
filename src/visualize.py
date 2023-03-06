@@ -26,6 +26,8 @@ if args.percent:
     for k in counts[args.key]:
         counts[args.key][k] /= counts['_all'][k]
 
+
+counts[args.key] = {k:v for k,v in counts[args.key].items() if 'country_code' not in k}
 # plot the count values
 items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)
 #for k,v in items:
