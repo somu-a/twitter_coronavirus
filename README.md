@@ -182,3 +182,30 @@ These are relatively insignificant decisions.
 I'm more concerned with your ability to write a shell script and use `nohup`, `&`, and other process control tools effectively.
 
 ## Results
+
+The files in this repo are part of a project where geotagged twitter tweets were analyzed. Specifically, I looked at tweets made in 2020 that have relevant COVID-19 hashtags, parsing through them to identify which hashtags, languages, and countries each tweet was from. Below are four different graphs I created as part of this project.
+
+## Graph 1: Top 10 Countries with hashtag '#코로나바이러스' 
+
+<img src=/Country#코로나바이러스.png width=100% />
+
+This graph shows the top 10 countries that have tweets including the '#코로나바이러스' hashtag.
+
+## Graph 2: Top 10 Countries with hashtag '#coronavirus'
+
+<img src=/CountryCoronavirus.png  width=100% />
+
+This graph shows the top 10 countries that have tweets including the '#coronavirus' hashtag.
+
+## Graph 3: Top 10 Languages with hashtag '#코로나바이러스' 
+
+<img src=/Language#코로나바이러스.png width=100% />
+
+This graph shows the top 10 languages that have tweets including the '#코로나바이러스' hashtag.
+
+## Graph 4: Top 10 Languages with hashtag '#coronavirus'
+
+<img src=/LanguageCoronavirus.png  width=100% />
+
+This graph shows the top 10 languages that have tweets including the '#coronavirus' hashtag.
+
