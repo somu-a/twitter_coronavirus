@@ -175,7 +175,7 @@ Complete the following tasks:
 Upload a link to you github repository on sakai.
 I will look at your code and visualization to determine your grade.
 
-Notice that we are not using CI to grade this assignment.
+Notice that we are not using CI to grade this assignment
 That's because you can get slightly different numbers depending on some of the design choices you make in your code.
 For example, should the term `corona` count tweets that contain `coronavirus` as well as tweets that contain just `corona`?
 These are relatively insignificant decisions.
