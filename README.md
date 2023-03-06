@@ -187,7 +187,7 @@ The files in this repo are part of a project where geotagged twitter tweets were
 
 ## Graph 1: Top 10 Countries with hashtag '#코로나바이러스' 
 
-<img src=/Country#코로나바이러스.png width=100% />
+<img src=/Country%23코로나바이러스.png width=100% />
 
 This graph shows the top 10 countries that have tweets including the '#코로나바이러스' hashtag.
 
@@ -199,7 +199,7 @@ This graph shows the top 10 countries that have tweets including the '#coronavir
 
 ## Graph 3: Top 10 Languages with hashtag '#코로나바이러스' 
 
-<img src=/Language#코로나바이러스.png width=100% />
+<img src=/Language%23코로나바이러스.png width=100% />
 
 This graph shows the top 10 languages that have tweets including the '#코로나바이러스' hashtag.
 
