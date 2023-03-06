@@ -42,7 +42,9 @@ for country, value in top_ten:
 print(countries)
 print(values)
 #print(top_ten)
-plt.bar(countries, values)
+plt.bar(
+        [for i range(len(countries))], y
+        )
 
 if args.input_path == "reduced.country":
     plt.xlabel("Countries")
